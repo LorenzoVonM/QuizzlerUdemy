@@ -52,7 +52,12 @@ class ViewController: UIViewController {
     
     
     func checkAnswer() {
-        
+        let correctAnswer = allQuestions.list[0].answer
+        if correctAnswer == pickedAnswer{
+            
+        }else{
+            
+        }//if correctAnswer == pickedAnswer
     }
     
     
